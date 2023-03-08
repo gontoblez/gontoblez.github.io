@@ -1,27 +1,43 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Gloock&display=swap');
 
 h1.site_title {
-    font-family: Gloock, sans-serif;
+    font-family: 'Abril Fatface', sans-serif;
     color: #427b58;
-    /*font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;*/
-    /*font-size: 35pt;*/
     padding-left: 15pt;
+    display: inline;
 }
 
 body {
     background-color: #fbf1c7;
 }
 
+span.material-symbols-outlined {
+    float: right;
+    position: relative;
+    padding-right: 12pt;
+    padding-top: 90%;
+}
+
 ul.header_nav {
     padding: 0px;
+    padding-left: 30;
     margin: 0px;
-    font-family: Poppins;
+    font-family: Roboto;
     list-style-type: none;
     font-size: 15pt;
     overflow: hidden;
     background-color: #ebdbb2;
+}
+
+div.navig {
+    background-color: #ebdbb2;
+}
+
+li.home {
+    border-left: 1pt solid #fbf1c7;
 }
 
 li a {
@@ -40,9 +56,9 @@ li a:hover {
 }
 
 p {
-    font-family: "MV Boli", sans-serif;
+    font-family: Roboto, sans-serif;
     font-style: normal;
-    font-weight: bold;
+    font-weight: normal;
     font-size: 13pt;
     color: #282828;
     padding: 13pt;
