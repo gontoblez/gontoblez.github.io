@@ -23,12 +23,65 @@ h1.site_title {
     animation: GontobezIn 2s, appear 1s;
 }
 
+div#div_navig {
+    text-align: center;
+    transform: translateY(125pt);
+}
+
+div #first_row,#second_row,#third_row {
+    padding: 10pt;
+}
+
+div.button_text {
+    color: #d5c4a1;
+}
+
 ul {
     list-style: none;
 }
 
 li {
     display: inline;
+    padding: 10pt;
+}
+
+button {
+    width: 280pt;
+    height: 100pt;
+    border-radius: 10pt;
+    background-color: #282828;
+    color: #d5c4a1;
+    text-align: center;
+    text-decoration: none;
+    border: solid;
+    border-color: #458588;
+}
+
+i {
+    float: left;
+    transform: translateX(10pt);
+    color: #b16286;
+}
+
+p.button_title {
+    float: left;
+    scale: 2.5;
+    transform: translateX(25pt) translateY(-5pt);
+}
+
+p.button_description {
+    float: top;
+    transform: translateX(30pt) translateY(25pt);
+    text-align: left;
+    color: #bdae93;
+    scale: 1.25;
+}
+
+p.button_descriptio {
+    float: top;
+    transform: translateX(-5pt) translateY(25pt);
+    text-align: left;
+    scale: 1.25;
 }
 
 body {
@@ -38,9 +91,4 @@ body {
 
 p {
     font-family: Roboto, sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 13pt;
-    color: #282828;
-    padding: 13pt;
 }
