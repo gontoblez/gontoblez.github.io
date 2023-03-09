@@ -23,6 +23,14 @@ h1.site_title {
     animation: GontobezIn 2s, appear 1s;
 }
 
+ul {
+    list-style: none;
+}
+
+li {
+    display: inline;
+}
+
 body {
     background-color: #282828;
     overflow-x: hidden;
