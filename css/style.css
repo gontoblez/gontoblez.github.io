@@ -59,7 +59,11 @@ p#greeting {
 
 div#div_navig {
     text-align: center;
-    transform: translateY(125pt);
+    transform: translateY(100pt);
+}
+
+a {
+    text-decoration: none;
 }
 
 div #first_row,#second_row,#third_row {
