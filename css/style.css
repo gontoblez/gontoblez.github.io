@@ -1,9 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald&family=Quattrocento&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Gloock&display=swap');
-
 
 @keyframes GontobezIn {
     0%{transform: translateY(300pt) scale(0.5);}
