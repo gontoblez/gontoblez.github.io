@@ -39,13 +39,22 @@
     to{opacity: 100%;}
 }
 
-h1.site_title {
+h1.animate_title {
     font-family: Oswald, sans-serif;
     text-align: center;
     font-size: 40pt;
     color: #689d6a;
     float: center;
     animation: GontobezIn 2s, appear 1s;
+}
+
+h1.appear_title {
+    font-family: Oswald, sans-serif;
+    text-align: center;
+    font-size: 40pt;
+    color: #689d6a;
+    float: center;
+    animation: appear 1s;
 }
 
 p#greeting {
