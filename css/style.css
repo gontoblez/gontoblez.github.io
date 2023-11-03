@@ -97,6 +97,21 @@ button {
     transition: transform .2s;
 }
 
+
+button#PhotoPort {
+    width: 585pt;
+    height: 100pt;
+    border-radius: 10pt;
+    background-color: #282828;
+    color: #d5c4a1;
+    text-align: center;
+    text-decoration: none;
+    border: solid;
+    border-color: #689d6a;
+    animation: appear_buttons 3s, ButtonEntrance 1s 2s;
+    transition: transform .2s;
+}
+
 button:hover {
     transform: scale(1.07);
     border-color: #8ec07c;
