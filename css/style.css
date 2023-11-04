@@ -154,6 +154,13 @@ button:hover {
     color: #ebdbb2;
 }
 
+button#PhotoPort:hover {
+    transform: scale(1.07);
+    border-color: #8ec07c;
+    background-color: #32302f;
+    color: #ebdbb2;
+}
+
 button:hover i {
     color: #d3869b;
 }
