@@ -132,20 +132,20 @@ img {
     transition: transform .2s;
 }
 
-button#PhotoPort {
-    width: 585pt;
-    height: 100pt;
-    border-radius: 10pt;
-    padding: 10pt;
-    background-color: #282828;
-    color: #d5c4a1;
-    text-align: center;
-    text-decoration: none;
-    border: solid;
-    border-color: #689d6a;
-    animation: appear_buttons 3s, ButtonEntrance 1s 2s;
-    transition: transform .2s;
-}
+/* button#PhotoPort { */
+/*     width: 585pt; */
+/*     height: 100pt; */
+/*     border-radius: 10pt; */
+/*     padding: 10pt; */
+/*     background-color: #282828; */
+/*     color: #d5c4a1; */
+/*     text-align: center; */
+/*     text-decoration: none; */
+/*     border: solid; */
+/*     border-color: #689d6a; */
+/*     animation: appear_buttons 3s, ButtonEntrance 1s 2s; */
+/*     transition: transform .2s; */
+/* } */
 
 button:hover {
     transform: scale(1.07);
@@ -154,12 +154,12 @@ button:hover {
     color: #ebdbb2;
 }
 
-button#PhotoPort:hover {
-    transform: scale(1.07);
-    border-color: #8ec07c;
-    background-color: #32302f;
-    color: #ebdbb2;
-}
+/* button#PhotoPort:hover { */
+/*     transform: scale(1.07); */
+/*     border-color: #8ec07c; */
+/*     background-color: #32302f; */
+/*     color: #ebdbb2; */
+/* } */
 
 button:hover i {
     color: #d3869b;
@@ -177,15 +177,23 @@ p.button_title {
     transform: translateX(25pt) translateY(-5pt);
 }
 
-p.port_button_title {
-    float: left;
-    scale: 2.5;
-    transform: translateX(50pt) translateY(-5pt);
-}
+/* p.port_button_title { */
+/*     float: left; */
+/*     scale: 2.5; */
+/*     transform: translateX(50pt) translateY(-5pt); */
+/* } */
 
 p.button_description {
     float: top;
     transform: translateX(30pt) translateY(25pt);
+    text-align: left;
+    color: #bdae93;
+    scale: 1.25;
+}
+
+p.photo_button_description {
+    float: top;
+    transform: translateX(10pt) translateY(25pt);
     text-align: left;
     color: #bdae93;
     scale: 1.25;
