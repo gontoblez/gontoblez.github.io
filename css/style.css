@@ -191,6 +191,14 @@ p.button_description {
     scale: 1.25;
 }
 
+p.neuro_button_description {
+    float: top;
+    transform: translateY(20pt);
+    text-align: left;
+    color: #bdae93;
+    scale: 1.25;
+}
+
 p.photo_button_description {
     float: top;
     transform: translateX(10pt) translateY(25pt);
