@@ -136,6 +136,10 @@ button {
         padding: 0pt;
     }
 
+    #div_navig {
+        padding-bottom: 50pt;
+    }
+
     div#forth_row {
         margin-bottom: 50pt;
     }
