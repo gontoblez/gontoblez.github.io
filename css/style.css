@@ -126,6 +126,25 @@ button {
     transition: transform .2s;
 }
 
+@media only screen and (max-width: 768px) {
+    div #first_row,#second_row,#third_row,#forth_row,#fifth_row,#sixth_row {
+        width: 100%;
+        text-align: center;
+        overflow-x: hidden;
+        transform: translateX(-16pt);
+        padding: 0pt;
+    }
+
+    div#fourth_row {
+        margin-bottom: 50pt;
+    }
+
+    button {
+        margin-top: 40pt;
+    }
+}
+
+
 img {
     width: 45%;
     border-radius: 10px;
