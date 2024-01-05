@@ -131,16 +131,23 @@ button {
         width: 100%;
         text-align: center;
         overflow-x: hidden;
+        overflow-y: hidden;
         transform: translateX(-16pt);
         padding: 0pt;
     }
 
-    div#fourth_row {
+    div#forth_row {
         margin-bottom: 50pt;
+    }
+
+    .button_text {
+        transform: translateX(-10pt);
+        width: 80vw;
     }
 
     button {
         margin-top: 40pt;
+        width: 80vw;
     }
 }
 
